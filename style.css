@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    margin: 0;    
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background: rgba(31,34,53,1);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 0.5% 5%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(30, 35, 71);
+    
+}
+
+marquee{
+    color: #fff;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.header span{
+    color: rgba(255,74,87,1);
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgba(255,74,87,1);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.flexible-container{
+    display: flex;
+}
+
+.header-text{
+    width: 50%;    
+    padding-left: 6%;
+}
+
+.header-img-logo{
+    width: 50%;
+    padding-left: 2%;
+}
+
+.header-text img{
+    width: 80%;
+}
+
+
+
+/* header left side design */
+
+.header_social-links{
+    display: inline-block;    
+    position: relative;
+}
+
+.header-text{
+    margin-top: 10%;
+}
+
+/*Font awesome design */
+.fontAwesome{    
+    font-size: 35px;
+    color: rgb(240, 186, 167);
+    padding: 10px;    
+    transition: 0.1s;
+}
+
+.fontAwesome:hover{
+    color: rgba(255,74,87,1);
+}
+
+.header-text h1{
+    
+    font-size: 40px;
+    color: #fff;
+} 
+
+.span2{
+    color: rgba(255,74,87,1);
+}
+
+.header-text p{    
+    padding-bottom: 15px;
+    color: gray;
+    font-size: 15px;
+}
+
+
+.link-btn a{    
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(rgba(255,74,87,1), rgb(255, 38, 0,1));
+    padding: 10px 40px;
+    border-radius: 5px;
+    transition: letter-spacing 0.5s;
+}
+
+.link-btn a:hover{
+    letter-spacing: 3px;
+}
+
+.header-img-logo img{
+    width: 500px;
+    padding-top: 15%;
+    padding-left: 15%;
+}
+
