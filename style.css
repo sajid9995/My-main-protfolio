@@ -26,6 +26,7 @@ nav{
 
 marquee{
     color: #fff;
+    cursor: pointer;
 }
 
 .logo{
